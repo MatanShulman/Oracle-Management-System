@@ -98,7 +98,7 @@ public class NewOrderPanel extends SalePanel {
 			boolean success2 = mainFrame.getDB().updateOrderPrice(order.getNum());
 			
 			if (success2) {
-				String msg = "The Order was commited successfully";
+				String msg = "The Order was committed successfully";
 				JOptionPane.showMessageDialog(null, msg, "Success",JOptionPane.INFORMATION_MESSAGE);
 				mainFrame.removePanel();
 			}
