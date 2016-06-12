@@ -123,7 +123,7 @@ public class NewInvoicePanel extends SalePanel {
 			boolean success2 = mainFrame.getDB().updateInvoicePrice(invoice.getNum());
 			
 			if (success2) {
-				String msg = "The Invoice was commited successfully";
+				String msg = "The Invoice was committed successfully";
 				JOptionPane.showMessageDialog(null, msg, "Success",JOptionPane.INFORMATION_MESSAGE);
 				mainFrame.removePanel();		
 			}
